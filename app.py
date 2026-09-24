@@ -8,8 +8,8 @@ st.write("Generate your personalized workout and diet plan instantly.")
 
 # User Input Form
 with st.form("fitness_form"):
-    name = st.text_input("Your Name", value="Eswar")
-    age = st.number_input("Age", min_value=10, max_value=100, value=25)
+    name = st.text_input("Your Name", value="Muthusurenther")
+    age = st.number_input("Age", min_value=10, max_value=100, value=19)
     weight = st.number_input("Weight (kg)", min_value=30, max_value=200, value=70)
     goal = st.selectbox("What are you moving toward?", ["Lose Weight", "Build Muscle", "Stay Fit"])
     challenge = st.selectbox("How much challenge sounds right?", ["Beginner", "Moderate", "Advanced"])
@@ -26,17 +26,17 @@ if submitted:
 
         #### 🏋️ Workout Routine (3-Day Split)
         * **Day 1: Upper Body Strength**
-          * Push-ups: 3 sets x 12 reps
-          * Dumbbell Shoulder Press: 3 sets x 10 reps
-          * Plank Hold: 3 sets x 45 seconds
+          * Push-ups: 4 sets x 15 reps
+          * Dumbbell Shoulder Press: 4 sets x 15 reps
+          * Plank Hold: 4 sets x 30 seconds
         * **Day 2: Lower Body & Core**
           * Bodyweight Squats: 4 sets x 15 reps
           * Lunges: 3 sets x 10 reps per leg
           * Mountain Climbers: 3 sets x 30 seconds
         * **Day 3: Full Body & Cardio**
-          * Jumping Jacks: 3 sets x 45 reps
-          * Burpees: 3 sets x 8 reps
-          * Jogging / Walking: 20 minutes
+          * Jumping Jacks: 4 sets x 30 reps
+          * Burpees: 4 sets x 9 reps
+          * Jogging / Walking: 30 minutes
 
         #### 🥗 Nutrition & Diet Plan
         * **Breakfast:** Oatmeal with sliced bananas, a handful of almonds, and a glass of milk.
